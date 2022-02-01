@@ -291,7 +291,7 @@ jQuery(document).ready( function($) {
 <?php
 
 	if(isset($_SESSION['usuarioId'])){
-		echo  "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"index.php\">";
+		echo  "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"pagina_pessoal.php\">";
 		echo "Olá, " . $_SESSION['usuarioNome'] . "</a></li>";
 		echo "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"sair.php\">Deseja sair?</a></li> ";
 	}
@@ -320,243 +320,115 @@ jQuery(document).ready( function($) {
 
 
 
-<p>Você certamente já viu um cachorro andando pela rua sozinho e não pode acolhê-lo e levá-lo para sua casa, não é? Se a vida nas ruas já é difícil para os seres humanos, no geral. Imagina para um animal incapaz de se comunicar e sujeito a maldade de certos indivíduos. Você certamente já viu um<strong> </strong>cachorro andando pela rua sozinho e não pode acolhê-lo e levá-lo para sua casa, não é? Se a vida nas ruas já é difícil para os seres humanos, no geral. Imagina para um animal incapaz de se comunicar e sujeito a maldade de certos indivíduos. Você certamente já viu um<strong> </strong>cachorro andando pela rua sozinho e não pode acolhê-lo e levá-lo para sua casa, não é? Se a vida nas ruas já é difícil para os seres humanos, no geral. Imagina para um animal incapaz de se comunicar e sujeito a maldade de certos indivíduos. </p>
+<p>Você certamente já viu um cachorro ou gatinho andando pela rua sozinho e não pode acolhê-lo e levá-lo para sua casa, não é? Se a vida nas ruas já é difícil para os seres humanos, no geral, imagina para um animal incapaz de se comunicar e sujeito a maldade de certos indivíduos. Por conta disso diversas ONGs são criadas a fim de ajudarem esses animais, uma ONG para adoção de animais é uma organização não governamental montada a partir da iniciativa individual de um grupo de pessoas com o foco em ajudar e trabalhar por uma causa.
 
+Infelizmente, muitos animais ainda são abandonados a cada dia nas ruas da Região dos Lagos. E as consequências disso, além de todo o sofrimento do pet que foi abandonado, é também a saúde pública. 
 
+<br><br><strong>Algumas ações que as ONGs colocam em prática todos os dias:</strong>
+<ul>
+<li>Retirada da rua e abrigo;</li>
+<li>Primeiros socorros e tratamentos veterinários;</li>
+<li>Castração para evitar ninhadas;</li>
+<li>Vacinas e medicações em geral;</li></ul> </p>
 
-<h2 id="principais-ong-s">Principais ONG&#8217;s</h2>
 
 
+<h2 id="principais-ong-s">Principais ONGs</h2>
 
-<h3 id="suipa"><strong>SUIPA</strong></h3>
 
 
+<h4 id="suipa"><strong>PATINHAS DA ALDEIA</strong></h4>
 
-<p><strong>Fundada em:</strong>&nbsp;1943</p>
 
+<p><strong>Localização:</strong> São Pedro da Aldeia - RJ</p>
 
 
-<p><strong>Localização:</strong>&nbsp;Rio de Janeiro – RJ&nbsp;</p>
 
+<p><strong>Site:</strong>&nbsp;<a href="https://www.facebook.com/patinhasdaldeia/" target="_blank" rel="noreferrer noopener">https://www.facebook.com/patinhasdaldeia/</a></p>
 
 
-<p><strong>Site:</strong>&nbsp;<a href="https://www.suipa.org.br/" target="_blank" rel="noreferrer noopener">https://www.suipa.org.br</a></p>
 
+<p>Comunidade criada há mais de 7 anos para acolher e atender cães e gatos de rua na cidade de São Pedro da Aldeia - RJ. Sua divulgação é feita principalmente através do Facebook. 
+</p>
 
 
-<p>SUIPA é uma sigla que quer dizer Sociedade União Internacional Protetora dos Animais. Além de um abrigo para resgate de animais, a organização possui ainda uma clínica veterinária que oferece atendimento a preços populares.</p>
 
+<h4 id="ampara-animal"><strong>SOS CÃOPANHEIROS</strong></h4>
 
 
-<h3 id="ampara-animal"><strong>Ampara Animal</strong></h3>
+<p><strong>Localização:&nbsp;</strong>Saquarema- RJ</p>
 
 
 
-<p><strong>Fundada em:&nbsp;</strong>2010</p>
+<p><strong>Site:</strong>&nbsp;<a href="https://www.soscaopanheiros.com.br/" target="_blank" rel="noreferrer noopener">https://www.soscaopanheiros.com.br/</a></p>
 
 
 
-<p><strong>Localização:&nbsp;</strong>São Paulo – SP</p>
+<p>ONG localizada em Saquarema- RJ, que desde 1999 acolhe dezenas de cães abandonados ou em situação de risco nas ruas da cidade.</p>
 
 
 
-<p><strong>Site:</strong>&nbsp;<a href="https://amparanimal.org.br/" target="_blank" rel="noreferrer noopener">https://amparanimal.org.br/</a></p>
+<h4 id="cao-sem-dono"><strong>Abrigo Carminha e Cidinha</strong></h4>
 
 
 
-<p>A Ampara Animal oferece um formato diferente das outras ONGs. Eles não possuem recursos próprios, mas se especializaram em captar recursos e repassá-los para ONGs de animais e protetores em um modelo de rodízio. Assim, a Ampara Animal apoia diferentes organizações.</p>
+<p><strong>Localização:</strong>&nbsp;Cabo Frio - RJ</p>
 
 
 
-<h3 id="cao-sem-dono"><strong>Cão sem dono</strong></h3>
+<p><strong>Site:</strong>&nbsp;<a href="https://www.facebook.com/abrigocarminhaecidinha/" target="_blank" rel="noreferrer noopener">https://www.facebook.com/abrigocarminhaecidinha/</a></p>
 
 
 
-<p><strong>Fundado em:</strong>&nbsp;2005</p>
+<p>Abrigo criado há 26 anos para acolher cães e gatos das ruas da cidade de Cabo Frio - RJ, que atualmente atende mais de 100 animais.</p>
 
 
 
-<p><strong>Localização:</strong>&nbsp;São Paulo – SP</p>
+<h4 id="vira-lata-e-dez"><strong>Projeto Animal </strong></h4>
 
 
 
-<p><strong>Site:</strong>&nbsp;<a href="http://www.caosemdono.com.br/" target="_blank" rel="noreferrer noopener">http://www.caosemdono.com.br/</a></p>
+<p><strong>Localização:</strong> Arraial do Cabo - RJ</p>
 
 
 
-<p>A Cão sem dono é um ONG de proteção animal localizada em São Paulo. Eles possuem um abrigo próprio onde inúmeros cachorros estão disponíveis para adoção.</p>
+<p><strong>Site:</strong>&nbsp;<a href="https://pt-br.facebook.com/projetoanimalarraialdocabo/" target="_blank" rel="noreferrer noopener">https://pt-br.facebook.com/projetoanimalarraialdocabo/</a></p>
 
 
 
-<p>Para financiar seus trabalhos, eles oferecem a opção de apadrinhamento, onde a pessoa se compromete a doar uma certa quantia de dinheiro mensal para ajudar um determinado cachorro do abrigo.</p>
+<p>O Projeto Animal Arraial, localizado em Arraial do Cabo - RJ, promove feiras de adoção responsável de gatos e cachorros. O intuito é encontrar lares amorosos para os diversos animais resgatados no município. Afinal, adotar é um ato de amor!</p>
 
 
 
-<h3 id="vira-lata-e-dez"><strong>Vira Lata é Dez</strong></h3>
+<h4 id="vira-lata-e-dez"><strong>Bicho Maneiro </strong></h4>
 
 
 
-<p><strong>Fundada em:</strong>&nbsp;2003</p>
+<p><strong>Localização:</strong> Saquarema - RJ</p>
 
 
 
-<p><strong>Localização:</strong>&nbsp;São Paulo&nbsp;</p>
+<p><strong>Site:</strong>&nbsp;<a href="https://pt-br.facebook.com/ongbichomaneiro/" target="_blank" rel="noreferrer noopener">https://pt-br.facebook.com/ongbichomaneiro/</a></p>
 
 
 
-<p><strong>Site:</strong>&nbsp;<a href="http://viralataedez.com.br/" target="_blank" rel="noreferrer noopener">http://viralataedez.com.br/</a></p>
+<p>A Bicho Maneiro é uma ONG que tem como missão dar saúde e dignidade aos animais. Seu trabalho tem como objetivo principal reduzir a quantidade de animais nas ruas, através de castrações a preços super populares. Como a maioria de seu trabalho é feito na cidade de Saquarema, onde existem muitos animais abandonados, essa ONG tenta sensibilizar a população dessa região e de outros municípios para que todos cuidem desses animais, oferecendo sempre alimentos, água, medicação e abrigo. O objetivo desse trabalho é fazer com que haja uma diminuíção de animais nas ruas.</p>
 
 
+<h4 id="vira-lata-e-dez"><strong>Iguaba Pelos Animais - IPA </strong></h4>
 
-<p>A Vira Lata é Dez cuida de mais de 900 animais em um abrigo próprio, localizado no interior de São Paulo. A sede da ONG de animais tem mais de 10 mil metros quadrados e eles também contam com um centro de adoção.</p>
 
 
+<p><strong>Localização:</strong> Iguaba Grande - RJ</p>
 
-<h3 id="instituto-luisa-mell"><strong>Instituto Luísa Mell</strong></h3>
 
 
+<p><strong>Site:</strong>&nbsp;<a href="https://pt-br.facebook.com/Iguaba-Pelos-Animais-IPA-409400359408249/about/" target="_blank" rel="noreferrer noopener">https://pt-br.facebook.com/Iguaba-Pelos-Animais-IPA-409400359408249/about/</a></p>
 
-<p><strong>Fundado em:&nbsp;</strong>2015</p>
 
 
+<p>O IPA(Iguaba Pelos Animais) surgiu através de pessoas apaixonadas por animais, para tentar amenizar o sofrimento desses que estão abandonados. Sua principal missão é resgatar, cuidar e promover o bem estar desses animais para quando aptos, ficarem disponíveis para adoção. </p>
 
-<p><strong>Localização:&nbsp;</strong>São Paulo – SP</p>
-
-
-
-<p><strong>Site:</strong>&nbsp;<a href="http://ilm.org.br/" target="_blank" rel="noreferrer noopener">http://ilm.org.br/</a></p>
-
-
-
-<p>O Instituto Luísa Mell foi criado em 2015, pela modelo e apresentadora Luísa Mell. A organização costuma participar de resgates massivos, em especial, de casos em que os animais estão sendo utilizados para reprodução, de forma exacerbada e sem os devidos cuidados.</p>
-
-
-
-<p>O abrigo do Instituto Luísa Mell conta com cerca de 300 animais.</p>
-
-
-
-<h3 id="focinhos-de-luz"><strong>Focinhos de Luz</strong></h3>
-
-
-
-<p><strong>Fundado em:</strong>&nbsp;2010</p>
-
-
-
-<p><strong>Localização:&nbsp;</strong>Sepetiba – RJ</p>
-
-
-
-<p><strong>Site:</strong>&nbsp;<a href="https://contato7159.wixsite.com/focinhos-de-luz" target="_blank" rel="noreferrer noopener">https://contato7159.wixsite.com/focinhos-de-luz</a></p>
-
-
-
-<p>A Focinhos de Luz é uma ONG localizada no Rio de Janeiro que, além de cães, também acolhe gatos. Eles surgiram em 2010, após encontrarem um local com muitos animais em más condições e sem os devidos cuidados.</p>
-
-
-
-<h3 id="amigos-de-sao-francisco"><strong>Amigos de São Francisco</strong></h3>
-
-
-
-<p><strong>Fundado em:</strong>&nbsp;2015.</p>
-
-
-
-<p><strong>Localização:&nbsp;</strong>São Paulo</p>
-
-
-
-<p><strong>Site:</strong>&nbsp;<a href="http://amigosdesaofrancisco.com.br/" target="_blank" rel="noreferrer noopener">http://amigosdesaofrancisco.com.br/</a>&nbsp;</p>
-
-
-
-<p>A Amigos de São Francisco é outra ONG de animais que, além de cachorros, abriga também os felinos. O abrigo deles está localizado na cidade de Ibiúna, no interior de São Paulo, e eles promovem constantemente várias feiras de adoção em São Paulo, capital.</p>
-
-
-
-<h3 id="gatopoles-adocao-de-gatinhos"><strong>Gatópoles – Adoção de Gatinhos</strong></h3>
-
-
-
-<p>Fun<strong>dada em:&nbsp;</strong>2013</p>
-
-
-
-<p><strong>Localização:&nbsp;</strong>São Paulo – SP</p>
-
-
-
-<p><strong>Site:</strong>&nbsp;<a href="http://gatopoles.com.br/" target="_blank" rel="noreferrer noopener">http://gatopoles.com.br/</a></p>
-
-
-
-<p>Se você também é um fã de gatinhos, então aproveite para conhecer a ONG de animais Gatópoles. Eles atuam desde 2013 no resgate, acolhimento e doação responsável de gatos na cidade de São Paulo.</p>
-
-
-
-<p>Assim como algumas das ONGs mencionadas acima, a Gatópoles possui abrigo próprio e financia seus trabalhos por meio de apadrinhamentos e da realização de eventos.</p>
-
-
-
-<p>Mas, são só animais domésticos que possuem ONGs de proteção?&nbsp;</p>
-
-
-
-<p>Não. Vários outras organizações cuidam de animais silvestres, descubra algumas delas abaixo!</p>
-
-
-
-<h3 id="projeto-tamar"><strong>Projeto TAMAR</strong></h3>
-
-
-
-<p><strong>Fundada em:</strong>&nbsp;1980</p>
-
-
-
-<p><strong>Localização:</strong>&nbsp;Vários estados do Brasil</p>
-
-
-
-<p>Site:&nbsp;<a href="https://www.tamar.org.br/" target="_blank" rel="noreferrer noopener">https://www.tamar.org.br/</a></p>
-
-
-
-<p>O Projeto TAMAR – Tartaruga Marinha – é um pouco diferente das ONGs de animais acima, porque seu enfoque não é a adoção responsável, mas sim o cuidado com os animais marinhos silvestres. Para isso, o Projeto TAMAR trabalha oferecendo proteção para os locais onde as tartarugas colocam os ovos, além de atendimento veterinário para tartarugas que precisam de ajuda.&nbsp;</p>
-
-
-
-<p>É o caso das tartarugas atingidas por óleo em alto mar, por exemplo. Um dos principais trabalhos do projeto TAMAR é com a conscientização sobre a importância de preservar o meio ambiente e o mar. Eles fazem por meio de suas sedes, localizadas nas principais praias do Brasil, como Ubatuba, em São Paulo, e Porto Seguro, na Bahia, além de Aracaju, Sergipe.&nbsp;</p>
-
-
-
-<p>Nesses lugares, o Projeto TAMAR mantém centros de preservação e aquários que podem ser visitados por interessados em conhecer melhor o trabalho da organização.</p>
-
-
-
-<h3 id="save"><strong>SAVE</strong></h3>
-
-
-
-<p><strong>Fundada em:</strong>&nbsp;2000</p>
-
-
-
-<p><strong>Localização:</strong>&nbsp;São Paulo</p>
-
-
-
-<p><strong>Site:</strong>&nbsp;<a href="http://www.savebrasil.org.br/" target="_blank" rel="noreferrer noopener">http://www.savebrasil.org.br/</a></p>
-
-
-
-<p>Entre as ongs de animais, a SAVE é a Associação da Conservação das Aves no Brasil, com o objetivo não só de proteger o meio ambiente, mas também para evitar a extinção de certas espécies de aves que só existem aqui no Brasil.</p>
-
-
-
-<p>Essas são algumas das ongs de animais, que fazem o resgate, realizam eventos de adoção e castração para monitorar e controlar a taxa de natalidade de animais de rua, além de outras ações voltadas para melhorar a qualidade de vida dos bichinhos.&nbsp;</p>
 	</div><!-- .entry-content -->
 
 			<footer class="entry-footer responsive-max-width">

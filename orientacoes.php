@@ -291,7 +291,7 @@ jQuery(document).ready( function($) {
 <?php
 
 	if(isset($_SESSION['usuarioId'])){
-		echo  "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"index.php\">";
+		echo  "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"pagina_pessoal.php\">";
 		echo "Olá, " . $_SESSION['usuarioNome'] . "</a></li>";
 		echo "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"sair.php\">Deseja sair?</a></li> ";
 	}
@@ -324,8 +324,15 @@ jQuery(document).ready( function($) {
 		
 
 
+<br><h3>⚠️ ATENÇÃO:</h3>
 
-<br><h3>Em caso de dúvidas:</h3>
+
+<div itemprop="location" itemscope itemtype="http://schema.org/Organization" class="wp-block-jetpack-contact-info">
+<b>Quando seu pet cadastrado for adotado e receber um novo lar, não se esqueça de retirá-lo de nosso site através de sua Página Pessoal aqui no PickPet.   </b>
+</div>
+
+
+<h3>Em caso de dúvidas:</h3>
 
 
 <div itemprop="location" itemscope itemtype="http://schema.org/Organization" class="wp-block-jetpack-contact-info">

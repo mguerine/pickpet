@@ -304,7 +304,7 @@ jQuery(document).ready( function($) {
 <?php
 
 	if(isset($_SESSION['usuarioId'])){
-		echo  "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"index.php\">";
+		echo  "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"pagina_pessoal.php\">";
 		echo "Olá, " . $_SESSION['usuarioNome'] . "</a></li>";
 		echo "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"sair.php\">Deseja sair?</a></li> ";
 	}
@@ -614,7 +614,7 @@ jQuery(document).ready( function($) {
 <label
 				for='g187-cep'
 				class='grunion-field-label text'
-				>CEP</label>
+				>CEP<span>(EX: 12345678)</span></label>
 <input
 					type='text'
 					name='cep'

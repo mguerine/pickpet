@@ -296,7 +296,7 @@ jQuery(document).ready( function($) {
 <?php
 
 	if(isset($_SESSION['usuarioId'])){
-		echo  "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"index.php\">";
+		echo  "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"pagina_pessoal.php\">";
 		echo "Olá, " . $_SESSION['usuarioNome'] . "</a></li>";
 		echo "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"sair.php\">Deseja sair?</a></li> ";
 	}
@@ -465,7 +465,7 @@ jQuery(document).ready( function($) {
             <input type="file" name="image" id="image" />  
 
    
-			<br><input type="submit" name="insert" id="insert" value="Insert" class="btn btn-info" />  
+			<br><br><input type="submit" name="insert" id="insert" value="Enviar" class="btn btn-info" />  
 
             
           

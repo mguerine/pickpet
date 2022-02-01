@@ -702,12 +702,12 @@ jQuery(document).ready( function($) {
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-350"><a href="orientacoes.php">Cadastrar Pet</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246"><a href="cachorros.php">Cachorros</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-247"><a href="gatinhos.php">Gatinhos</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-244"><a href="ongs_importantes.html">ONGs Importantes</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264"><a href="quem_somos.html">Quem Somos?</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-244"><a href="ongs_importantes.php">ONGs Importantes</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264"><a href="quem_somos.php">Quem Somos?</a></li>
 <?php
 
 	if(isset($_SESSION['usuarioId'])){
-		echo  "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"index.php\">";
+		echo  "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"pagina_pessoal.php\">";
 		echo "Olá, " . $_SESSION['usuarioNome'] . "</a></li>";
 		echo "<li class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-264\"><a href=\"sair.php\">Deseja sair?</a></li> ";
 	}
@@ -763,7 +763,7 @@ jQuery(document).ready( function($) {
                                 </center>
                             
                             <div class="container-login100-form-btn p-t-25"> <button class="login100-form-btn"> Login </button> </div>
-                            <br><a href="novo_adotar.php">Ainda não tenho conta cadastrada</a>
+                            <br><a href="cadastrar_usuario.php">Ainda não tenho conta cadastrada</a>
                         </form>
                     </div>
                 </div>

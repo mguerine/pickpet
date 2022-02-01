@@ -35,7 +35,7 @@
 		$resultado_pet = mysqli_query($conn, $query);
 		if($resultado_pet)  
 		{  
-			echo ("Image Inserted into Database");  
+			echo ("Imagem Inserida com sucesso!");  
 		}  
 	}  
 	
