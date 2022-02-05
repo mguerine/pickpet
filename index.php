@@ -8,7 +8,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
-	<title>Pick Pet &#8211; Adoção e Divulgação</title>
+	<title>Página Inicial - PickPet</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel='dns-prefetch' href='//s0.wp.com' />
 <link rel='dns-prefetch' href='//wordpress.com' />

@@ -7,7 +7,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
-	<title>ONG&#8217;s Importantes &#8211; Pick Pet</title>
+	<title>ONGs Importantes - PickPet</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel='dns-prefetch' href='//s0.wp.com' />
 <link rel='dns-prefetch' href='//wordpress.com' />

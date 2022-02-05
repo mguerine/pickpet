@@ -12,7 +12,7 @@ $resultado_pet = mysqli_query($conn, $query);
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
-	<title>Gatinhos &#8211; Pick Pet</title>
+	<title>Gatinhos - PickPet</title>
 	<style>	
 		
 		/*****************
